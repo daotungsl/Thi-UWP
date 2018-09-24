@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="Question_1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Question_1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Ellipse HorizontalAlignment="Center" Height="250" VerticalAlignment="Top" Width="350" Fill="#FFF50000"/>
+        <Ellipse HorizontalAlignment="Left" Height="250" VerticalAlignment="Center" Width="350" Fill="#FF0A1B8B"/>
+        <Ellipse HorizontalAlignment="Center" Height="250" VerticalAlignment="Bottom" Width="350" Fill="#FF1EB806"/>
+        <Ellipse HorizontalAlignment="Right" Height="250" VerticalAlignment="Center" Width="350" Fill="#FF0A0000"/>
+        <Rectangle HorizontalAlignment="Center" Height="250" VerticalAlignment="Center" Width="350" Fill="#FF28958B"/>
+    </Grid>
+</Page>
